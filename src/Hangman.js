@@ -21,6 +21,7 @@ class Hangman extends Component{
                 guessed: new Set([]),
                 answer: randomWord(),
             }
+            
             this.maxWrong = 10;
             this.images = [
                 image0,
